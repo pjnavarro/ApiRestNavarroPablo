@@ -110,3 +110,5 @@ C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\ap
 C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\apiRestNavarroPablo\apiRestNavarroPablo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\apiRestNavarroPablo\apiRestNavarroPablo\obj\Debug\netcoreapp3.1\apiRestNavarroPablo.csproj.CoreCompileInputs.cache
 C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\apiRestNavarroPablo\apiRestNavarroPablo\obj\Debug\netcoreapp3.1\apiRestNavarroPablo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\apiRestNavarroPablo\apiRestNavarroPablo\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Users\Pablo\Documents\FACU\3 año 1mer cuatrimestre\Programacion 5\6 clase\apiRestNavarroPablo\apiRestNavarroPablo\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json

@@ -2,7 +2,7 @@
 
 namespace apiRestNavarroPablo.Migrations
 {
-    public partial class Initial : Migration
+    public partial class BD : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,8 +13,8 @@ namespace apiRestNavarroPablo.Migrations
                     id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     dni = table.Column<int>(nullable: false),
-                    nombre = table.Column<string>(nullable: true),
-                    apellido = table.Column<string>(nullable: true),
+                    nombre = table.Column<string>(nullable: false),
+                    apellido = table.Column<string>(nullable: false),
                     curso = table.Column<string>(nullable: true),
                     año = table.Column<int>(nullable: false)
                 },

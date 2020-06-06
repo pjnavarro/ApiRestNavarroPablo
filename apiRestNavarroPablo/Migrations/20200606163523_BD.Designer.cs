@@ -9,8 +9,8 @@ using apiRestNavarroPablo.Contexts;
 namespace apiRestNavarroPablo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200601012031_Initial")]
-    partial class Initial
+    [Migration("20200606163523_BD")]
+    partial class BD
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,6 +28,7 @@ namespace apiRestNavarroPablo.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("apellido")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("año")
@@ -40,6 +41,7 @@ namespace apiRestNavarroPablo.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("nombre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
